@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cancer"
+            android:icon="@mipmap/ic_menu_whatiscancer"
+            android:title="What is Cancer?" />
+        <item
+            android:id="@+id/nav_lifestyle"
+            android:icon="@mipmap/ic_menu_lifestyle"
+            android:title="Changes in Lifestyle" />
+        <item
+            android:id="@+id/nav_family"
+            android:icon="@mipmap/ic_menu_"
+            android:title="Tips for Friends and Family" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@mipmap/ic_menu_supportgroup"
+            android:title="Support Group" />
+    </group>
+
+    <!-- <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item> -->
+
+</menu>
